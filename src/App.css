@@ -1,0 +1,100 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+}
+@media screen and (max-width: 480px) {
+    
+
+
+}
+.concluida{
+    font-size: 20px;
+    list-style: none;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 90%;
+    border-radius: 30px;
+    padding: 20px ;
+}
+.nãoconcluida{
+    font-size: 20px;
+    list-style: none;
+    background-color: rgb(40, 171, 0);
+    color: rgb(255, 255, 255);
+    width: 90%;
+    border-radius: 30px;
+    padding: 20px;
+}
+.botaoconcluida{
+    border: white;
+    background-color: rgb(79, 255, 79);
+    width: 100px;
+    height: 40px;
+}
+.botaonãoconcluida{
+    border: white;
+    background-color: rgb(255, 120, 120);
+    width: 100px;
+    height: 40px;
+}
+.boataoexcluirtrue{
+    width: 100px;
+    height: 40px;
+}
+.botaoexcluirfalse{
+    width: 100px;
+    height: 40px;
+}
+.botaoadicionar{
+    border-radius: 10px;
+    height: 55px;
+    width: 100px;
+    background-color: red;
+    color: white;
+}
+.inputadicionar{
+    
+    border-radius: 10px;
+    height: 50px;
+    width: 75%;
+}
+.container{
+    margin: 0 auto;
+    max-width: 500px;
+    max-height: 500px;
+    
+}
+.divizona {
+    border-radius: 20px;
+    padding: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(246, 255, 0);
+    max-width: 40rem;
+    max-height: 70rem;
+}
+ul{
+    padding: 0;
+}   
+li{
+    margin-top: 10px;
+    padding: 10px 0px;
+}
+.caixagigante{
+    border-radius: 30px;
+    margin: 0 auto;
+    background-color: aqua;
+    width: 60rem;
+    height: 50rem; 
+}
+.h1{
+    padding: 20px;
+    font-size: 50px;
+}
+
+
