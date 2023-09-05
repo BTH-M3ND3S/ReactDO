@@ -6,11 +6,6 @@ body{
 header{
     text-align: center;
 }
-@media screen and (max-width: 480px) {
-    
-
-
-}
 .concluida{
     font-size: 20px;
     list-style: none;

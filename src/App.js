@@ -1,17 +1,14 @@
 import { useEffect, useState } from 'react';
 import "./App.css"
 
-
 function App() {
 
     const [ listatarefas, setlistaTarefas] = useState([]);
     const [ tarefa, setTarefa ] = useState({id: '', texto:"", status: ""});
 
     function addTarefa(event){
-
         if( tarefa.texto !== ""  && ( event.key == "Enter" || event == "click" ) )
         setlistaTarefas([...listatarefas, tarefa]);
-
     }
     function excluirtarefa(id)
     {
